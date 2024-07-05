@@ -22,8 +22,8 @@ class BlogList extends Component {
     const formattedData = data.map(eachItem => ({
       id: eachItem.id,
       title: eachItem.title,
-      imageUrl: image_url,
-      avatarUrl: avatar_url,
+      imageUrl: eachItem.image_url,
+      avatarUrl: eachItem.avatar_url,
       author: eachItem.author,
       topic: eachItem.topic,
     }))
